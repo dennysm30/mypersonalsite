@@ -262,47 +262,89 @@
 			<section class="contact-me">
 				<div class="contact-me__container">
 					<h2>Contact Me</h2>
-					<form action="">
-						<label for="nombre">
-							<input
-								type="text"
-								id="nombre"
-								placeholder="    Full Name"
-								autocomplete="name"
-							/>
-						</label>
-						<label for="e-mail">
-							<input
-								type="email"
-								id="e-mail"
-								placeholder="    Email Address"
-								autocomplete="email"
-							/>
-						</label>
-						<label for="message">
-							<textarea
-								name="message"
-								id="message"
-								cols="34"
-								rows="10"
-								autocomplete="off"
-								placeholder="  Message"
-							></textarea>
-						</label>
-						<button type="submit">
-							Send
-							<img src="./assets/icons/share-solid.svg" alt="send message" />
-						</button>
-					</form>
+					<div class="bg-img">
+						<form action="/action_page.php" class="container">
+							<label for="name">
+								<input
+									type="text"
+									placeholder="Enter your full name"
+									name="name"
+									required
+								/>
+							</label>
+
+							<label for="email">
+								<input
+									type="text"
+									placeholder="Enter Email"
+									name="email"
+									required
+								/>
+							</label>
+
+							<label for="message">
+								<textarea
+									name="message"
+									id="message"
+									cols="30"
+									rows="5"
+									placeholder="Enter Message"
+								></textarea>
+							</label>
+
+							<button type="submit" class="btn">
+								Send
+								<i
+									class="far fa-paper-plane"
+									style="font-size: 15px; color: var(--celest)"
+								></i>
+							</button>
+						</form>
+					</div>
 				</div>
 				<div class="contact-me__buttons">
-					<button mat-button><i class="fab fa-facebook-square"></i></button>
-					<button mat-button><i class="fab fa-dribbble-square"></i></button>
-					<button mat-button><i class="fab fa-github-square"></i></button>
-					<button mat-button><i class="fab fa-linkedin"></i></button>
-					<button mat-button><i class="fab fa-facebook-messenger"></i></button>
-					<button mat-button><i class="fab fa-behance-square"></i></button>
-					<button mat-button><i class="fab fa-whatsapp-square"></i></button>
+					<button link="/" class="btn-social">
+						<i
+							class="fab fa-facebook-square"
+							style="font-size: 25px; color: var(--celest)"
+						></i>
+					</button>
+					<button link="/" class="btn-social">
+						<i
+							class="fab fa-dribbble-square"
+							style="font-size: 25px; color: var(--celest)"
+						></i>
+					</button>
+					<button link="/" class="btn-social">
+						<i
+							class="fab fa-github-square"
+							style="font-size: 25px; color: var(--celest)"
+						></i>
+					</button>
+					<button link="/" class="btn-social">
+						<i
+							class="fab fa-linkedin"
+							style="font-size: 25px; color: var(--celest)"
+						></i>
+					</button>
+					<button link="/" class="btn-social">
+						<i
+							class="fab fa-facebook-messenger"
+							style="font-size: 25px; color: var(--celest)"
+						></i>
+					</button>
+					<button link="/" class="btn-social">
+						<i
+							class="fab fa-behance-square"
+							style="font-size: 25px; color: var(--celest)"
+						></i>
+					</button>
+					<button link="/" class="btn-social">
+						<i
+							class="fab fa-whatsapp-square"
+							style="font-size: 25px; color: var(--celest)"
+						></i>
+					</button>
 				</div>
 			</section>
 		</main>
