@@ -1,0 +1,58 @@
+:root {
+	/* Colores */
+	--white: #ffffff;
+	--soft-green: #82f28d;
+	--soft-grey: #d9d7d4;
+	--dark-grey: #4f5d67;
+	--black: #0c1116;
+	--grey-blue: #243441c5;
+	--celest: #0affef;
+	--soft-blue: #c2faf6;
+	--soft-black: #393242;
+	--transparent: #0000008c;
+
+	/* fuentes */
+	--h1: 'Roboto Slab', serif;
+	--h1-size: 7rem;
+	--h1-size-mobile: 2rem;
+	--h2-title: 'Roboto Slab', serif;
+	--h2-title-size: 7rem;
+	--h2-title-size-mobile: 2rem;
+	--h3-subtitle: 'Roboto Slab', serif;
+	--h3-subtitle-size: 4rem;
+	--h3-subtitle-size-mobile: 1.8rem;
+	--h4-parrafo: 'Roboto Slab', serif;
+	--h4-parrafo-size: 2.4rem;
+	--h4-parrafo-size-mobile: 1.6rem;
+	--p-fecha: 'Roboto Condensed', sans-serif;
+	--p-fecha-size: 2rem;
+	--p-fecha-size-mobile: 1.2rem;
+	--p-size: 2rem;
+	--p-size-mobile: 1.2rem;
+	--menu: 'Nunito', sans-serif;
+	--menu-size: 2.4rem;
+}
+
+/* ---- ---- Configuracion universal para proyectos ---- ----*/
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+html {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 62.5%;
+}
+/* ---- ---- fin de configuracion universal ---- ---- */
+/* 
+1. Posicionamiento
+2. Modelo de Caja (box model)
+3. Tipografia
+4. Visuales
+5. Otros*/
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+	left: 90%;
+}

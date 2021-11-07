@@ -54,7 +54,7 @@ html {
 header {
 	display: flex;
 	width: 100%;
-	height: 165px;
+	height: 100px;
 	background: linear-gradient(207.8deg, #252a2e 16.69%, #013506 100%);
 	min-width: 320px;
 	align-items: flex-end;
@@ -63,15 +63,18 @@ header {
 }
 
 header section {
+	width: 100%;
 	max-width: 768px;
+	height: auto;
 	margin: auto;
 }
 
 header #logo {
 	position: absolute;
-	width: 136px;
-	height: 113px;
-	margin-top: 10px;
+	width: 100px;
+	height: 90px;
+	margin-top: 0px;
+	margin-left: 10px;
 }
 
 header .nav {
@@ -89,8 +92,8 @@ header .nav {
 	/* margin-top: 50
 px
 ; */
-	left: 90%;
-	top: 70px;
+	left: 85%;
+	top: 23px;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -130,6 +133,7 @@ px
 	background-color: #3e8e41;
 }
 
+/* css seciones del main */
 main {
 	background: var(--grey-blue);
 	display: flex;
@@ -138,7 +142,7 @@ main {
 	flex-direction: column;
 }
 
-section {
+main section {
 	width: 100%;
 	height: auto;
 	margin-bottom: 2rem;
@@ -162,6 +166,7 @@ main .whoami-container img {
 	margin-top: 30px;
 	width: 150px;
 	height: 150px;
+	border-radius: 50%;
 }
 
 main .whoami-container h1 {
@@ -318,8 +323,8 @@ main .contact-me {
 	margin: 0;
 }
 
-main .contact-me h2 {
-	align-self: center;
+main .contact-me__container h2 {
+	text-align: center;
 	font-family: var(--h2-title);
 	font-size: var(--h2-title-size-mobile);
 	color: var(--white);
@@ -389,13 +394,34 @@ textarea:focus {
 
 .contact-me__buttons {
 	display: flex;
+	max-width: 420px;
 	flex-direction: row;
 	justify-content: space-evenly;
-	margin: 0 10px 20px 10px;
+	margin: 10px 10px 20px 10px;
 }
 
 .contact-me__buttons button {
 	width: 30px;
 	height: 30px;
 	background-color: var(--soft-black);
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 25px;
+	align-items: center;
+	background: linear-gradient(207.8deg, #252a2e 16.69%, #013506 100%);
+}
+
+footer p {
+	font-family: var(--p);
+	font-size: var(--p-size-mobile);
+	color: var(--white);
+}
+footer p em {
+	font-family: var(--p-fecha);
+	font-size: var(--p-fecha-size-mobile);
+	color: var(--white);
 }
